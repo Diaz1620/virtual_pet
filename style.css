@@ -10,7 +10,7 @@ body{
 #container{
     min-height: 30rem;
     border: 2px solid black;
-    box-shadow: .05rem .1rem .5rem .2rem inset;
+    /* box-shadow: .05rem .1rem .5rem .2rem inset; */
     padding: 1rem;
     /* background-color: gray; */
 }
@@ -23,9 +23,29 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-height: 20rem;
+    border: 2px solid black;
+    box-shadow: .05rem .1rem .5rem .2rem inset;
+    padding: 1rem;
 }
 
 .content img{
     
 }
 
+.sleep{
+    margin-left: 3rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    padding-top: 2rem;
+}
+
+.buttons button{
+    background-color: aqua;
+    border-radius: 2rem;
+    /* border: none; */
+}
