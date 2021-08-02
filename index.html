@@ -8,19 +8,26 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Welcome to Tamagotchi</h1>
+    <div id="container">
 
-    <div>
-        <img src="https://i1.wp.com/clipart-library.com/newimages/dinosaur-clipart-2018-14.png" alt="">
-
-        <div id="info">
-
-        </div>
-
-    </div>
-    <button>⚽</button>
-    <button onclick="feed()">🍖</button>
-
-    <script src="app.js"></script>
+        <h1>Welcome to Tamagotchi</h1>
+        
+        <div class="content">
+            <!-- <img src="https://i1.wp.com/clipart-library.com/newimages/dinosaur-clipart-2018-14.png" alt=""> -->
+            <div id="tama">
+                <img id="tama" src="images/happy.gif" alt="happy tama">
+            </div>
+            
+            <div id="info">
+                
+            </div>
+            
+        </div><!--end content-->
+        <button onclick="play()">⚽</button>
+        <button onclick="feed()">🍖</button>
+        
+        <script src="app.js"></script>
+    
+    </div> <!--end of container-->
 </body>
 </html>

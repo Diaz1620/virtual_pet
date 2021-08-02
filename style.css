@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    min-height: 30rem;
+    border: 2px solid black;
+    box-shadow: .05rem .1rem .5rem .2rem inset;
+    padding: 1rem;
+    /* background-color: gray; */
+}
+
+#container h1{
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content img{
+    
+}
+
