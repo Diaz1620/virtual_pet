@@ -29,6 +29,9 @@ function feed(){
         document.getElementById("tama").innerHTML=satisfied;
     
     }
+    if(hunger < 100){
+        hunger += 10
+    }
     // console.log(energy);
 
 };
