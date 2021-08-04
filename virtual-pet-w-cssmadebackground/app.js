@@ -29,9 +29,6 @@ function feed(){
         document.getElementById("tama").innerHTML=satisfied;
     
     }
-    if(hunger < 100){
-        hunger += 10
-    }
     // console.log(energy);
 
 };
@@ -75,7 +72,7 @@ function backToTama(){
 function display(){
     // document.getElementById("info").innerHTML=`<p>Energy: ${energy}</p>`;
     document.getElementById("tama").innerHTML=`
-    <p class="first">Energy: ${energy}</p>
+    <p>Energy: ${energy}</p>
     <p>Hunger: ${hunger}</p>
     `;
 };

@@ -63,3 +63,14 @@ body{
     border-radius: 2rem;
     /* border: none; */
 }
+
+#tama p{
+    padding-bottom: 5rem;
+    padding-left: 21rem;
+    /* background-color: gray; */
+}
+
+.first {
+    padding-top: 18rem;
+    
+}
